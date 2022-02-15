@@ -16,7 +16,7 @@ public class Main {
         var x2 = in.nextInt();
         var y2 = in.nextInt();
 
-        if(x1 == x2 || y1 == y2 || Math.abs(x1-y1) == Math.abs(x2-y2)){
+        if(Math.abs(x1-y1) == Math.abs(x2-y2)){
             System.out.print("YES");
         }
         else{
